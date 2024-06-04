@@ -5,7 +5,7 @@ import "./Header.css";
 import github from "../../assets/github.png";
 import linekdin from "../../assets/linkedin.png";
 import email from "../../assets/email.png";
-import CV from "../../assets/Resume.pdf";
+
 
 
 const Header = () => {
@@ -42,7 +42,7 @@ const Header = () => {
         
         <div className="header-payment-container">
           <a href="#contactMe"> <button>Hire Me</button> </a>
-          <a href={CV}> <button> Download CV </button> </a>
+          <a href="https://drive.google.com/file/d/1D3umQLJ5b_Ns9pma7ZpsZpPJ0hQsF8is/view"> <button> Download CV </button> </a>
         </div>
 
          {/* Social Icons */}
