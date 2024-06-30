@@ -8,6 +8,7 @@ import nodejs from "../../assets/nodejs.webp";
 import expressjs from "../../assets/express-js.png";
 import mongodb from "../../assets/mongodb.jpg";
 import reatcjs from "../../assets/reactjs.jpg";
+import nextjs from "../../assets/nextjs.jpg";
 import ejs from "../../assets/ejs.gif";
 import tailwindcss from "../../assets/tailwindCss.jpg";
 import java from "../../assets/java.png";
@@ -45,6 +46,7 @@ const onclickCertificate = function(){
         </div>
       </div>
 
+      {/* SKILLS */}
       <div className="skill-mf">
         <p className="title-ss">Skills</p>
         <span className='pull'>HTML </span> <span className="pull-right">100%</span>
@@ -62,14 +64,14 @@ const onclickCertificate = function(){
           <div className="progress-bar" role="progressbar" style={{width:"85%"}} aria-valuenow={85} aria-valuemin={0} aria-valuemax={100}></div>
         </div>
         
-        <span className='pull'>Node.js</span> <span className="pull-right">90%</span>
+        <span className='pull'>Node.js</span> <span className="pull-right">85%</span>
         <div className="progress">
-          <div className="progress-bar" role="progressbar" style={{width:"90%"}} aria-valuenow={90} aria-valuemin={0} aria-valuemax={100}></div>
+          <div className="progress-bar" role="progressbar" style={{width:"85%"}} aria-valuenow={85} aria-valuemin={0} aria-valuemax={100}></div>
         </div>
         
-        <span className='pull'>Express.js</span> <span className="pull-right">90%</span>
+        <span className='pull'>Express.js</span> <span className="pull-right">85%</span>
         <div className="progress">
-          <div className="progress-bar" role="progressbar" style={{width:"90%"}} aria-valuenow={90} aria-valuemin={0} aria-valuemax={100}></div>
+          <div className="progress-bar" role="progressbar" style={{width:"85%"}} aria-valuenow={85} aria-valuemin={0} aria-valuemax={100}></div>
         </div>
 
         <span className='pull'>Ejs</span> <span className="pull-right">90%</span>
@@ -82,9 +84,14 @@ const onclickCertificate = function(){
           <div className="progress-bar" role="progressbar" style={{width:"90%"}} aria-valuenow={90} aria-valuemin={0} aria-valuemax={100}></div>
         </div>
 
-        <span className='pull'>MongoDB</span> <span className="pull-right">95%</span>
+        <span className='pull'>Next.js</span> <span className="pull-right">85%</span>
         <div className="progress">
-          <div className="progress-bar" role="progressbar" style={{width:"95%"}} aria-valuenow={95} aria-valuemin={0} aria-valuemax={100}></div>
+          <div className="progress-bar" role="progressbar" style={{width:"90%"}} aria-valuenow={85} aria-valuemin={0} aria-valuemax={100}></div>
+        </div>
+
+        <span className='pull'>MongoDB</span> <span className="pull-right">90%</span>
+        <div className="progress">
+          <div className="progress-bar" role="progressbar" style={{width:"95%"}} aria-valuenow={90} aria-valuemin={0} aria-valuemax={100}></div>
         </div>
         <span className='pull'>tailwindCss</span> <span className="pull-right">90%</span>
         <div className="progress">
@@ -118,6 +125,7 @@ const onclickCertificate = function(){
                   <img src={ejs} alt="ejs" />
                   <img src={mongodb} alt="mongodb" />
                   <img src={reatcjs} alt="reatcjs" />
+                  <img src={nextjs} alt="nextjs" />
                   <img src={tailwindcss} alt="tailwindcss" />
                   <img src={java} alt="java" />
               </div> 
