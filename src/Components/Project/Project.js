@@ -8,6 +8,7 @@ import Email from "../../assets/Email-sender.png";
 import Todo from "../../assets/todo.png";
 import Battery from "../../assets/batter-api.png";
 import Calculator from "../../assets/calculator.png";
+import flipkart from "../../assets/flipkart.png";
 
 const Project = () => {
     const [category, setCategory]=useState("All");
@@ -44,6 +45,20 @@ const Project = () => {
             {category=="All"&& 
                 <div className='projectClass'>
                     <div className='project-card'>
+                    <a href=' https://github.com/Sarita008/Blog-web-app'>
+                    <img 
+                            src= {flipkart}
+                            alt='project image'
+                        />
+                        </a>
+                        <div className='project-info'>
+                            <h2>Flipkart- E-commerce</h2>
+                            <p>Designed and developed a dynamic Blog website using Node.js, Express.js, EJS, and MongoDB. Integrated CRUD operations to manage blog posts and user interactions effectively. Proficient in backend development, database management, and templating engines.This Blog Web Application reflects my dedication to excellence in web development and my ability to create impactful solutions that meet the needs of modern users.</p>
+                            <a href="https://github.com/Sarita008/Blog-web-app"><i className="fa fa-github" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
+                        </div>
+                    </div>
+
+                    <div className='project-card'>
                         <a href='https://income-expenses-tracker-g91b.vercel.app/'>
                         <img 
                             src= {Income} 
@@ -60,6 +75,7 @@ const Project = () => {
                             <a href="https://income-expenses-tracker-g91b.vercel.app/"><i className="fa fa-link" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
                         </div>
                     </div>
+
                     <div className='project-card'>
                     <a href=' https://github.com/Sarita008/Blog-web-app'>
                     <img 
@@ -73,6 +89,7 @@ const Project = () => {
                             <a href="https://github.com/Sarita008/Blog-web-app"><i className="fa fa-github" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
                         </div>
                     </div>
+
                     <div className='project-card'>
                     <a href='https://weather-web-app-taupe.vercel.app/'>
                     <img 
@@ -90,6 +107,7 @@ const Project = () => {
                             <a href="https://weather-web-app-taupe.vercel.app/"><i className="fa fa-link" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
                         </div>
                     </div>
+
                     <div className='project-card'>
                     <a href='https://to-do-list-chi-rouge.vercel.app/'>
                     <img 
@@ -104,6 +122,7 @@ const Project = () => {
                             <a href="https://to-do-list-chi-rouge.vercel.app/"><i className="fa fa-link" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
                         </div>
                     </div>
+
                     <div className='project-card'>
                     <a href='https://github.com/Sarita008/E-MailSender-Web-App'>
                     <img 
@@ -120,6 +139,7 @@ const Project = () => {
                             <a href="https://github.com/Sarita008/E-MailSender-Web-App"><i className="fa fa-github" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
                         </div>
                     </div>
+
                     <div className='project-card'>
                     <a href='https://battery-api-blue.vercel.app/'>
                     <img 
@@ -137,6 +157,7 @@ const Project = () => {
                             <a href="https://battery-api-blue.vercel.app/"><i className="fa fa-link" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
                         </div>
                     </div>
+                    
                     <div className='project-card'>
                     <a href='https://calculator-umber-three-31.vercel.app/'>
                     <img 
