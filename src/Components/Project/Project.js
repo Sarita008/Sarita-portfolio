@@ -111,6 +111,22 @@ const Project = () => {
                     </div>
 
                     <div className='project-card'>
+                    <a href='https://weather-web-app-taupe.vercel.app/'>
+                    <img 
+                            src= {snake}
+                            alt='project image'
+                        />
+                        </a>
+                        <div className='project-info'>
+                            <h2>Snake Game</h2>
+                            <p>I developed a classic Snake Game using JavaScript, HTML, and CSS. Players navigate the snake to consume food, increasing their score while avoiding collisions with the walls and itself. <br/> The game features smooth animations, sound effects for actions, and a high score system stored in local storage. This project demonstrates my ability to create interactive web applications with real-time updates and responsive gameplay.
+                            </p>
+                            <a href="https://github.com/Sarita008/snake"><i className="fa fa-github" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
+                            <a href="https://snake-game-sepia-beta.vercel.app/"><i className="fa fa-link" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
+                        </div>
+                    </div>
+
+                    <div className='project-card'>
                     <a href='https://to-do-list-chi-rouge.vercel.app/'>
                     <img 
                             src= {Todo}
