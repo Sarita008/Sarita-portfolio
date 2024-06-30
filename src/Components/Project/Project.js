@@ -53,8 +53,9 @@ const Project = () => {
                         </a>
                         <div className='project-info'>
                             <h2>Flipkart- E-commerce</h2>
-                            <p>Designed and developed a dynamic Blog website using Node.js, Express.js, EJS, and MongoDB. Integrated CRUD operations to manage blog posts and user interactions effectively. Proficient in backend development, database management, and templating engines.This Blog Web Application reflects my dedication to excellence in web development and my ability to create impactful solutions that meet the needs of modern users.</p>
-                            <a href="https://github.com/Sarita008/Blog-web-app"><i className="fa fa-github" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
+                            <p>Design and developed e-commerce platform using the MERN stack and Context API for global state management, with an intuitive admin panel for seamless product management. Engineered a user-friendly design with Material UI, optimizing the shopping experience and enhancing user
+                                engagement through responsive and visually appealing interfaces.</p>
+                            <a href="https://github.com/Sarita008/Flipkart-ecommerce"><i className="fa fa-github" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
                         </div>
                     </div>
 
@@ -177,6 +178,7 @@ const Project = () => {
                     </div>
                 </div>
             }
+
             {category=="Basic"&& 
                 <div className='projectClass'>
                       <div className='project-card'>
@@ -233,6 +235,7 @@ const Project = () => {
                    
                 </div>
             }
+
             {category=="Intermediate"&& 
                 <div className='projectClass'>
                    <div className='project-card'>
@@ -271,6 +274,21 @@ const Project = () => {
             }
             {category=="Advance"&& 
                 <div className='projectClass'>
+                    <div className='project-card'>
+                    <a href=' https://github.com/Sarita008/Blog-web-app'>
+                    <img 
+                            src= {flipkart}
+                            alt='project image'
+                        />
+                        </a>
+                        <div className='project-info'>
+                            <h2>Flipkart- E-commerce</h2>
+                            <p>Design and developed e-commerce platform using the MERN stack and Context API for global state management, with an intuitive admin panel for seamless product management. Engineered a user-friendly design with Material UI, optimizing the shopping experience and enhancing user
+                                engagement through responsive and visually appealing interfaces.</p>
+                            <a href="https://github.com/Sarita008/Flipkart-ecommerce"><i className="fa fa-github" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
+                        </div>
+                    </div>
+
                      <div className='project-card'>
                         <a href='https://income-expenses-tracker-g91b.vercel.app/'>
                         <img 
@@ -288,6 +306,7 @@ const Project = () => {
                             <a href="https://income-expenses-tracker-g91b.vercel.app/"><i className="fa fa-link" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
                         </div>
                     </div>
+                    
                     <div className='project-card'>
                     <a href=' https://github.com/Sarita008/Blog-web-app'>
                     <img 
