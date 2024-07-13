@@ -111,7 +111,7 @@ const Project = () => {
                     </div>
 
                     <div className='project-card'>
-                    <a href='https://weather-web-app-taupe.vercel.app/'>
+                    <a href='https://snake-game-sepia-beta.vercel.app/'>
                     <img 
                             src= {snake}
                             alt='project image'
