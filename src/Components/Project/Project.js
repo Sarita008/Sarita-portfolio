@@ -10,6 +10,7 @@ import Battery from "../../assets/batter-api.png";
 import Calculator from "../../assets/calculator.png";
 import flipkart from "../../assets/flipkart.png";
 import snake from "../../assets/snake.png";
+import AI from "../../assets/AI.png";
 
 const Project = () => {
     const [category, setCategory]=useState("All");
@@ -45,6 +46,22 @@ const Project = () => {
         <div className='projectClass'>
             {category=="All"&& 
                 <div className='projectClass'>
+                    <div className='project-card'>
+                    <a href='https://github.com/Sarita008/AI-Content-Generator'>
+                    <img 
+                            src= {AI}
+                            alt='project image'
+                        />
+                        </a>
+                        <div className='project-info'>
+                            <h2>GenWrite AI Content Generator</h2>
+                            <p> Developed an AI-powered content generation platform using the MERN Stack, incorporating OpenAI API for dynamic and automated content creation. Integrated Stripe API for secure payment solutions, optimizing transaction processes for an enhanced user experience. Designed an intuitive and visually appealing user interface, ensuring both aesthetic appeal and seamless functionality.</p>
+                            <a href="https://github.com/Sarita008/AI-Content-Generator"><i className="fa fa-github" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
+                        </div>
+                    </div>
+
+
+
                     <div className='project-card'>
                     <a href="https://github.com/Sarita008/Flipkart-ecommerce">
                     <img 
@@ -309,6 +326,20 @@ const Project = () => {
 
             {category=="Advance"&& 
                 <div className='projectClass'>
+                    <div className='project-card'>
+                    <a href='https://github.com/Sarita008/AI-Content-Generator'>
+                    <img 
+                            src= {AI}
+                            alt='project image'
+                        />
+                        </a>
+                        <div className='project-info'>
+                            <h2>GenWrite AI Content Generator</h2>
+                            <p> Developed an AI-powered content generation platform using the MERN Stack, incorporating OpenAI API for dynamic and automated content creation. Integrated Stripe API for secure payment solutions, optimizing transaction processes for an enhanced user experience. Designed an intuitive and visually appealing user interface, ensuring both aesthetic appeal and seamless functionality.</p>
+                            <a href="https://github.com/Sarita008/AI-Content-Generator"><i className="fa fa-github" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
+                        </div>
+                    </div>
+
                     <div className='project-card'>
                     <a href="https://github.com/Sarita008/Flipkart-ecommerce">
                     <img 
