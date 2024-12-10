@@ -11,6 +11,8 @@ import Calculator from "../../assets/calculator.png";
 import flipkart from "../../assets/flipkart.png";
 import snake from "../../assets/snake.png";
 import AI from "../../assets/AI.png";
+import Netflix from "../../assets/netflix.png";
+import DineDash from "../../assets/DineDash.png";
 
 const Project = () => {
     const [category, setCategory]=useState("All");
@@ -57,6 +59,37 @@ const Project = () => {
                             <h2>GenWrite AI Content Generator</h2>
                             <p> Developed an AI-powered content generation platform using the MERN Stack, incorporating OpenAI API for dynamic and automated content creation. Integrated Stripe API for secure payment solutions, optimizing transaction processes for an enhanced user experience. Designed an intuitive and visually appealing user interface, ensuring both aesthetic appeal and seamless functionality.</p>
                             <a href="https://github.com/Sarita008/AI-Content-Generator"><i className="fa fa-github" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
+                        </div>
+                    </div>
+
+                    <div className='project-card'>
+                    <a href="https://github.com/Sarita008/Netflix-clone">
+                    <img 
+                            src= { Netflix}
+                            alt='project image'
+                        />
+                        </a>
+                        <div className='project-info'>
+                            <h2>Netflix- UI clone</h2>
+                            <p>Developed a Netflix clone using the MERN stack and Tailwind CSS, integrating user authentication (login and register) with secure session management. Implemented dynamic features, including a movie search section, TV series filtering, and person search by name, ensuring seamless user experience and responsiveness.
+                            Designed and optimized a modern, visually appealing UI using Tailwind CSS, enhancing user engagement and accessibility across devices.</p>
+                            <a href="https://github.com/Sarita008/Netflix-clone"><i className="fa fa-github" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
+                        </div>
+                    </div>
+
+                    <div className='project-card'>
+                    <a href="https://github.com/Sarita008/DineBot-Food-Chatbot">
+                    <img 
+                            src= { DineDash}
+                            alt='project image'
+                        />
+                        </a>
+                        <div className='project-info'>
+                            <h2> DineBot-Food Chatbot</h2>
+                            <p>Developed an interactive food chatbot, DineBot, using React.js and CSS, integrating advanced conversational flows via Voiceflow for seamless user interactions.
+                            Implemented personalized food suggestions based on mood, health, diet preferences, and available ingredients, enhancing user satisfaction and engagement.
+                            Designed a responsive and intuitive UI for the chatbot, ensuring accessibility and cross-platform compatibility.</p>
+                            <a href="https://github.com/Sarita008/DineBot-Food-Chatbot"><i className="fa fa-github" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
                         </div>
                     </div>
 
@@ -215,6 +248,36 @@ const Project = () => {
 
             {category=="Basic"&& 
                 <div className='projectClass'>
+                    <div className='project-card'>
+                    <a href='https://snake-game-sepia-beta.vercel.app/'>
+                    <img 
+                            src= {snake}
+                            alt='project image'
+                        />
+                        </a>
+                        <div className='project-info'>
+                            <h2>Snake Game</h2>
+                            <p>I developed a classic Snake Game using JavaScript, HTML, and CSS. Players navigate the snake to consume food, increasing their score while avoiding collisions with the walls and itself. <br/> The game features smooth animations, sound effects for actions, and a high score system stored in local storage. This project demonstrates my ability to create interactive web applications with real-time updates and responsive gameplay.
+                            </p>
+                            <a href="https://github.com/Sarita008/snake"><i className="fa fa-github" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
+                            <a href="https://snake-game-sepia-beta.vercel.app/"><i className="fa fa-link" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
+                        </div>
+                    </div>
+
+                    <div className='project-card'>
+                    <a href='https://to-do-list-chi-rouge.vercel.app/'>
+                    <img 
+                            src= {Todo}
+                            alt='project image'
+                        />
+                        </a>
+                        <div className='project-info'>
+                            <h2>Todo List</h2>
+                            <p>As a React.js developer, I have designed and developed a dynamic Todo list web application aimed at simplifying task management and enhancing productivity. In this project, I utilized React.js to create a user-friendly front-end interface, enabling users to seamlessly add task. Leveraging React components and react Hooks, I ensured that the Todo list web application provides a smooth and efficient user experience, allowing users to stay organized and focused on their goals.</p>
+                            <a href="https://github.com/Sarita008/To-Do-List"><i className="fa fa-github" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
+                            <a href="https://to-do-list-chi-rouge.vercel.app/"><i className="fa fa-link" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
+                        </div>
+                    </div>
                       <div className='project-card'>
                     <a href='https://github.com/Sarita008/E-MailSender-Web-App'>
                     <img 
@@ -272,90 +335,7 @@ const Project = () => {
 
             {category=="Intermediate"&& 
                 <div className='projectClass'>
-                   <div className='project-card'>
-                    <a href='https://weather-web-app-taupe.vercel.app/'>
-                    <img 
-                            src= {Weather}
-                            alt='project image'
-                        />
-                        </a>
-                        <div className='project-info'>
-                            <h2>Weather Web App</h2>
-                            <p>As a proficient React.js developer, I have designed and developed a Weather web application utilizing the Weatherbit.io API to fetch real-time weather data. Leveraging my expertise in React.js, I created a dynamic and intuitive user interface that provides users with up-to-date weather information.
-                            <br />
-                            In this project, I utilized React.js to build a responsive and interactive front-end interface, allowing users to easily input their location and view detailed weather forecasts. I integrated the Weatherbit.io API to fetch weather data, enabling the application to display accurate and timely information on temperature, humidity, wind speed, and more.
-                            </p>
-                            <a href="https://github.com/Sarita008/weather-web-app"><i className="fa fa-github" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
-                            <a href="https://weather-web-app-taupe.vercel.app/"><i className="fa fa-link" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
-                        </div>
-                    </div>
-
                     <div className='project-card'>
-                    <a href="https://snake-game-sepia-beta.vercel.app/">
-                    <img 
-                            src= {snake}
-                            alt='project image'
-                        />
-                        </a>
-                        <div className='project-info'>
-                            <h2>Snake Game</h2>
-                            <p>I developed a classic Snake Game using JavaScript, HTML, and CSS. Players navigate the snake to consume food, increasing their score while avoiding collisions with the walls and itself. <br/> The game features smooth animations, sound effects for actions, and a high score system stored in local storage. This project demonstrates my ability to create interactive web applications with real-time updates and responsive gameplay.
-                            </p>
-                            <a href="https://github.com/Sarita008/snake"><i className="fa fa-github" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
-                            <a href="https://snake-game-sepia-beta.vercel.app/"><i className="fa fa-link" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
-                        </div>
-                    </div>
-
-                    <div className='project-card'>
-                    <a href='https://to-do-list-chi-rouge.vercel.app/'>
-                    <img 
-                            src= {Todo}
-                            alt='project image'
-                        />
-                        </a>
-                        <div className='project-info'>
-                            <h2>Todo List</h2>
-                            <p>As a React.js developer, I have designed and developed a dynamic Todo list web application aimed at simplifying task management and enhancing productivity. In this project, I utilized React.js to create a user-friendly front-end interface, enabling users to seamlessly add task. Leveraging React components and react Hooks, I ensured that the Todo list web application provides a smooth and efficient user experience, allowing users to stay organized and focused on their goals.</p>
-                            <a href="https://github.com/Sarita008/To-Do-List"><i className="fa fa-github" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
-                            <a href="https://to-do-list-chi-rouge.vercel.app/"><i className="fa fa-link" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
-                        </div>
-                    </div>
-                    
-                </div>
-            }
-
-            {category=="Advance"&& 
-                <div className='projectClass'>
-                    <div className='project-card'>
-                    <a href='https://github.com/Sarita008/AI-Content-Generator'>
-                    <img 
-                            src= {AI}
-                            alt='project image'
-                        />
-                        </a>
-                        <div className='project-info'>
-                            <h2>GenWrite AI Content Generator</h2>
-                            <p> Developed an AI-powered content generation platform using the MERN Stack, incorporating OpenAI API for dynamic and automated content creation. Integrated Stripe API for secure payment solutions, optimizing transaction processes for an enhanced user experience. Designed an intuitive and visually appealing user interface, ensuring both aesthetic appeal and seamless functionality.</p>
-                            <a href="https://github.com/Sarita008/AI-Content-Generator"><i className="fa fa-github" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
-                        </div>
-                    </div>
-
-                    <div className='project-card'>
-                    <a href="https://github.com/Sarita008/Flipkart-ecommerce">
-                    <img 
-                            src= {flipkart}
-                            alt='project image'
-                        />
-                        </a>
-                        <div className='project-info'>
-                            <h2>Flipkart- E-commerce</h2>
-                            <p>Design and developed e-commerce platform using the MERN stack and Context API for global state management, with an intuitive admin panel for seamless product management. Engineered a user-friendly design with Material UI, optimizing the shopping experience and enhancing user
-                                engagement through responsive and visually appealing interfaces.</p>
-                            <a href="https://github.com/Sarita008/Flipkart-ecommerce"><i className="fa fa-github" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
-                        </div>
-                    </div>
-
-                     <div className='project-card'>
                         <a href='https://income-expenses-tracker-g91b.vercel.app/'>
                         <img 
                             src= {Income} 
@@ -386,6 +366,91 @@ const Project = () => {
                             <a href="https://github.com/Sarita008/Blog-web-app"><i className="fa fa-github" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
                         </div>
                     </div>
+                   <div className='project-card'>
+                    <a href='https://weather-web-app-taupe.vercel.app/'>
+                    <img 
+                            src= {Weather}
+                            alt='project image'
+                        />
+                        </a>
+                        <div className='project-info'>
+                            <h2>Weather Web App</h2>
+                            <p>As a proficient React.js developer, I have designed and developed a Weather web application utilizing the Weatherbit.io API to fetch real-time weather data. Leveraging my expertise in React.js, I created a dynamic and intuitive user interface that provides users with up-to-date weather information.
+                            <br />
+                            In this project, I utilized React.js to build a responsive and interactive front-end interface, allowing users to easily input their location and view detailed weather forecasts. I integrated the Weatherbit.io API to fetch weather data, enabling the application to display accurate and timely information on temperature, humidity, wind speed, and more.
+                            </p>
+                            <a href="https://github.com/Sarita008/weather-web-app"><i className="fa fa-github" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
+                            <a href="https://weather-web-app-taupe.vercel.app/"><i className="fa fa-link" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
+                        </div>
+                    </div>  
+                </div>
+            }
+
+            {category=="Advance"&& 
+                <div className='projectClass'>
+                    
+                    <div className='project-card'>
+                    <a href='https://github.com/Sarita008/AI-Content-Generator'>
+                    <img 
+                            src= {AI}
+                            alt='project image'
+                        />
+                        </a>
+                        <div className='project-info'>
+                            <h2>GenWrite AI Content Generator</h2>
+                            <p> Developed an AI-powered content generation platform using the MERN Stack, incorporating OpenAI API for dynamic and automated content creation. Integrated Stripe API for secure payment solutions, optimizing transaction processes for an enhanced user experience. Designed an intuitive and visually appealing user interface, ensuring both aesthetic appeal and seamless functionality.</p>
+                            <a href="https://github.com/Sarita008/AI-Content-Generator"><i className="fa fa-github" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
+                        </div>
+                    </div>
+
+                    <div className='project-card'>
+                    <a href="https://github.com/Sarita008/Netflix-clone">
+                    <img 
+                            src= { Netflix}
+                            alt='project image'
+                        />
+                        </a>
+                        <div className='project-info'>
+                            <h2>Netflix- UI clone</h2>
+                            <p>Developed a Netflix clone using the MERN stack and Tailwind CSS, integrating user authentication (login and register) with secure session management. Implemented dynamic features, including a movie search section, TV series filtering, and person search by name, ensuring seamless user experience and responsiveness.
+                            Designed and optimized a modern, visually appealing UI using Tailwind CSS, enhancing user engagement and accessibility across devices.</p>
+                            <a href="https://github.com/Sarita008/Netflix-clone"><i className="fa fa-github" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
+                        </div>
+                    </div>
+
+                    <div className='project-card'>
+                    <a href="https://github.com/Sarita008/DineBot-Food-Chatbot">
+                    <img 
+                            src= { DineDash}
+                            alt='project image'
+                        />
+                        </a>
+                        <div className='project-info'>
+                            <h2> DineBot-Food Chatbot</h2>
+                            <p>Developed an interactive food chatbot, DineBot, using React.js and CSS, integrating advanced conversational flows via Voiceflow for seamless user interactions.
+                            Implemented personalized food suggestions based on mood, health, diet preferences, and available ingredients, enhancing user satisfaction and engagement.
+                            Designed a responsive and intuitive UI for the chatbot, ensuring accessibility and cross-platform compatibility.</p>
+                            <a href="https://github.com/Sarita008/DineBot-Food-Chatbot"><i className="fa fa-github" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
+                        </div>
+                    </div>
+
+
+
+                    <div className='project-card'>
+                    <a href="https://github.com/Sarita008/Flipkart-ecommerce">
+                    <img 
+                            src= {flipkart}
+                            alt='project image'
+                        />
+                        </a>
+                        <div className='project-info'>
+                            <h2>Flipkart- E-commerce</h2>
+                            <p>Design and developed e-commerce platform using the MERN stack and Context API for global state management, with an intuitive admin panel for seamless product management. Engineered a user-friendly design with Material UI, optimizing the shopping experience and enhancing user
+                                engagement through responsive and visually appealing interfaces.</p>
+                            <a href="https://github.com/Sarita008/Flipkart-ecommerce"><i className="fa fa-github" style={{fontSize:"48px", color:"black", margin:"5px"}}></i></a>
+                        </div>
+                    </div>
+                    
                 </div>  
             }         
         </div>
