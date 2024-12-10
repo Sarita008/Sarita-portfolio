@@ -42,7 +42,7 @@ const Header = () => {
         
         <div className="header-payment-container">
           <a href="#contactMe"> <button>Hire Me</button> </a>
-          <a href="https://drive.google.com/file/d/1p7OIVTMLyad2KL0ZnPi4t54hPiYVifX2/view?usp=sharing"> <button> Download CV </button> </a>
+          <a href="https://drive.google.com/file/d/1QljzEchvxT-pX1IMUsu2k1F3Npm24Y2E/view?usp=sharing"> <button> Download CV </button> </a>
         </div>
 
          {/* Social Icons */}
